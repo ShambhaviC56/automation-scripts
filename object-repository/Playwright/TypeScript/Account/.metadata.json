@@ -1,0 +1,13 @@
+{
+  "module": "Account",
+  "tool": "Playwright",
+  "language": "TypeScript",
+  "objects": [
+    "newButton",
+    "timestamp"
+  ],
+  "lastUpdated": "2026-01-12T15:34:49.181Z",
+  "testCases": [
+    "sync-all"
+  ]
+}
