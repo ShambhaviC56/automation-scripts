@@ -1,0 +1,6 @@
+{
+  "name": "generateUniqueName",
+  "type": "pageObject",
+  "language": "JavaScript",
+  "module": "Contact Creation"
+}
