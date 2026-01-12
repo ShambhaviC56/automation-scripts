@@ -1,6 +1,0 @@
-{
-  "name": "lastNameErrorMessage",
-  "type": "pageObject",
-  "language": "JavaScript",
-  "module": "Contact Creation"
-}

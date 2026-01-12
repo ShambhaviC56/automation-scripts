@@ -1,6 +1,0 @@
-{
-  "name": "newButton",
-  "type": "pageObject",
-  "language": "JavaScript",
-  "module": "Account"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "firstAccountLink",
-  "type": "pageObject",
-  "language": "JavaScript",
-  "module": "Account"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "emailError",
-  "type": "pageObject",
-  "language": "JavaScript",
-  "module": "Contact Creation"
-}

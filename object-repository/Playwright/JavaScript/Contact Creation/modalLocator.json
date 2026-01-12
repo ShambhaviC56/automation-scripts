@@ -1,6 +1,0 @@
-{
-  "name": "modalLocator",
-  "type": "pageObject",
-  "language": "JavaScript",
-  "module": "Contact Creation"
-}
