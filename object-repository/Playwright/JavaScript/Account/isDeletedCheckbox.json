@@ -1,0 +1,6 @@
+{
+  "name": "isDeletedCheckbox",
+  "type": "pageObject",
+  "language": "JavaScript",
+  "module": "Account"
+}
