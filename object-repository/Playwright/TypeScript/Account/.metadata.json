@@ -3,10 +3,11 @@
   "tool": "Playwright",
   "language": "TypeScript",
   "objects": [
+    "firstAccountLink",
     "newButton",
     "timestamp"
   ],
-  "lastUpdated": "2026-01-12T15:34:49.181Z",
+  "lastUpdated": "2026-01-12T15:39:37.824Z",
   "testCases": [
     "sync-all"
   ]
