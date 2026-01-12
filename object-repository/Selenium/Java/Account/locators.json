@@ -2,7 +2,8 @@
   "AccountPage": {
     "elem_yuz3is": {
       "type": "xpath",
-      "value": "//span[contains(text(),'Account"
+      "value": "//span[contains(text(),'Account",
+      "lastUsed": "2026-01-12"
     },
     "elem_7nphr6": {
       "type": "xpath",
@@ -10,11 +11,13 @@
     },
     "elem_g4iev4": {
       "type": "css",
-      "value": ".slds-global-header"
+      "value": ".slds-global-header",
+      "lastUsed": "2026-01-12"
     },
     "elem_d8rrvw": {
       "type": "css",
-      "value": ".slds-page-header"
+      "value": ".slds-page-header",
+      "lastUsed": "2026-01-12"
     },
     "accountNumber": {
       "type": "css",
@@ -22,31 +25,80 @@
     },
     "saveEdit": {
       "type": "css",
-      "value": "button[name='SaveEdit']"
+      "value": "button[name='SaveEdit']",
+      "lastUsed": "2026-01-12"
     },
     "elem_n6th5i": {
       "type": "css",
-      "value": "lightning-spinner"
+      "value": "lightning-spinner",
+      "lastUsed": "2026-01-12"
     },
     "elem_kadn3d": {
       "type": "css",
-      "value": "button.branding-userProfile-button"
+      "value": "button.branding-userProfile-button",
+      "lastUsed": "2026-01-12"
     },
     "elem_lnnci9": {
       "type": "css",
-      "value": "a[href*='logout']"
+      "value": "a[href*='logout']",
+      "lastUsed": "2026-01-12"
     },
     "username": {
       "type": "id",
-      "value": "username"
+      "value": "username",
+      "lastUsed": "2026-01-12"
     },
     "password": {
       "type": "id",
-      "value": "password"
+      "value": "password",
+      "lastUsed": "2026-01-12"
     },
     "login": {
       "type": "id",
-      "value": "Login"
+      "value": "Login",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_ihcp4t": {
+      "type": "xpath",
+      "value": "//lightning-base-combobox-item[contains(., 'User User",
+      "source": "TC010",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "closethiswindowBtn": {
+      "type": "css",
+      "value": "button.slds-button[title='Close this window']",
+      "source": "TC010",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_25shla": {
+      "type": "css",
+      "value": "a[title='New']",
+      "source": "TC010",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "name": {
+      "type": "css",
+      "value": "lightning-input-field[field-name='Name'] input",
+      "source": "TC010",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "ownerId": {
+      "type": "css",
+      "value": "lightning-lookup[field-name='OwnerId'] input",
+      "source": "TC010",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_r8l8i6": {
+      "type": "css",
+      "value": "div.forceToastMessage",
+      "source": "TC010",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
     }
   }
 }
