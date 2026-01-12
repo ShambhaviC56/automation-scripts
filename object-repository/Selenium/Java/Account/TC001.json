@@ -1,0 +1,6 @@
+{
+  "name": "TC001",
+  "type": "pageObject",
+  "language": "Java",
+  "module": "Account"
+}
