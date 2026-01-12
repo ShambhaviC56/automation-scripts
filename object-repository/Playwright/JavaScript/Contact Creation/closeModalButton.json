@@ -1,0 +1,6 @@
+{
+  "name": "closeModalButton",
+  "type": "pageObject",
+  "language": "JavaScript",
+  "module": "Contact Creation"
+}
