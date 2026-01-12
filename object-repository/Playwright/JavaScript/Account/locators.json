@@ -51,6 +51,22 @@
     "elem_8arkbs": {
       "type": "css",
       "value": "a[href*="
+    },
+    "elem_1dqjt": {
+      "type": "css",
+      "value": "div.reportError"
+    },
+    "elem_9ayvyf": {
+      "type": "css",
+      "value": "div.dashboardBody"
+    },
+    "elem_z3yqnm": {
+      "type": "css",
+      "value": "button[title="
+    },
+    "elem_9axvzz": {
+      "type": "css",
+      "value": "div.dashboardData"
     }
   }
 }
