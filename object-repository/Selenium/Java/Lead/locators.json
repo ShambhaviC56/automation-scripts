@@ -111,6 +111,69 @@
       "source": "TC135",
       "firstSeen": "2026-01-12",
       "lastUsed": "2026-01-12"
+    },
+    "newBtn": {
+      "type": "css",
+      "value": "div[title='Leads'] + div.slds-page-header button[title='New']",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "firstName": {
+      "type": "css",
+      "value": "lightning-input[field-name='FirstName'] input",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "lastName": {
+      "type": "css",
+      "value": "lightning-input[field-name='LastName'] input",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "email": {
+      "type": "css",
+      "value": "lightning-input[field-name='Email'] input",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "phone": {
+      "type": "css",
+      "value": "lightning-input[field-name='Phone'] input",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "company": {
+      "type": "css",
+      "value": "lightning-input[field-name='Company'] input",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "saveEdit": {
+      "type": "css",
+      "value": "button[name='SaveEdit']",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_b3x4jn": {
+      "type": "css",
+      "value": "span[class*='toastMessage']",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_i0uohf": {
+      "type": "css",
+      "value": "lightning-formatted-text[slot='outputField']",
+      "source": "TC029",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
     }
   }
 }
