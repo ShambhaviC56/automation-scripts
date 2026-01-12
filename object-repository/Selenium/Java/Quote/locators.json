@@ -1,0 +1,74 @@
+{
+  "QuotePage": {
+    "elem_vqiamt": {
+      "type": "xpath",
+      "value": "//div[contains(@class, 'ac_results",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_g4iev4": {
+      "type": "css",
+      "value": ".slds-global-header",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "endTourBtn": {
+      "type": "css",
+      "value": "button[title='End Tour']",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_x7iozb": {
+      "type": "css",
+      "value": "input[id*='Name']",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_ec1m1n": {
+      "type": "css",
+      "value": "input[id*='Account']",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_kadn3d": {
+      "type": "css",
+      "value": "button.branding-userProfile-button",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_lnnci9": {
+      "type": "css",
+      "value": "a[href*='logout']",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "username": {
+      "type": "id",
+      "value": "username",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "password": {
+      "type": "id",
+      "value": "password",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "login": {
+      "type": "id",
+      "value": "Login",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    }
+  }
+}
