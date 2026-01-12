@@ -1,0 +1,14 @@
+{
+  "module": "Account",
+  "tool": "Selenium",
+  "language": "Java",
+  "objects": [
+    "TC001",
+    "TC002",
+    "TC003"
+  ],
+  "lastUpdated": "2026-01-12T15:14:30.397Z",
+  "testCases": [
+    "sync-all"
+  ]
+}
