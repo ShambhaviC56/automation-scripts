@@ -1,0 +1,16 @@
+{
+  "module": "Contact Creation",
+  "tool": "Playwright",
+  "language": "JavaScript",
+  "objects": [
+    "emailErrorMessage",
+    "generateUniqueName",
+    "lastNameErrorMessage",
+    "timestamp",
+    "url"
+  ],
+  "lastUpdated": "2026-01-12T15:43:06.943Z",
+  "testCases": [
+    "sync-all"
+  ]
+}
