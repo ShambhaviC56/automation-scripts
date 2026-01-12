@@ -1,0 +1,6 @@
+{
+  "name": "descriptionValue",
+  "type": "pageObject",
+  "language": "JavaScript",
+  "module": "Account"
+}
