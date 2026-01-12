@@ -1,0 +1,109 @@
+{
+  "QuotePage": {
+    "elem_v57g62": {
+      "type": "xpath",
+      "value": "//button[text()=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_80ybs6": {
+      "type": "xpath",
+      "value": "//p[@class=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_wbz3ez": {
+      "type": "xpath",
+      "value": "//div[contains(@class, ",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_v5l1p": {
+      "type": "css",
+      "value": ".slds-global-header__item",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_2i6xr4": {
+      "type": "css",
+      "value": ".slds-icon-waffle",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_yilrp7": {
+      "type": "css",
+      "value": "input[placeholder=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_jvxay9": {
+      "type": "css",
+      "value": "div[title=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_1deqsf": {
+      "type": "css",
+      "value": "input[name=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_vg7ppy": {
+      "type": "css",
+      "value": "input[title=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_je63ih": {
+      "type": "css",
+      "value": "button[name=",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_ynmsfj": {
+      "type": "css",
+      "value": ".slds-theme--success",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_b606rg": {
+      "type": "css",
+      "value": ".slds-user-profile-badge--circle",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "username": {
+      "type": "id",
+      "value": "username",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "password": {
+      "type": "id",
+      "value": "password",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "login": {
+      "type": "id",
+      "value": "Login",
+      "source": "TC112",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    }
+  }
+}
