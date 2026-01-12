@@ -1,0 +1,15 @@
+{
+  "module": "Account",
+  "tool": "Playwright",
+  "language": "JavaScript",
+  "objects": [
+    "accountName",
+    "descriptionValue",
+    "isDeletedCheckbox",
+    "toastText"
+  ],
+  "lastUpdated": "2026-01-12T15:21:14.712Z",
+  "testCases": [
+    "sync-all"
+  ]
+}
