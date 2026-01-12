@@ -1,0 +1,6 @@
+{
+  "name": "toastText",
+  "type": "pageObject",
+  "language": "JavaScript",
+  "module": "Account"
+}
