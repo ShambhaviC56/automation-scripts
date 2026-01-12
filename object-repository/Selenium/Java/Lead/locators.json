@@ -1,0 +1,116 @@
+{
+  "LeadPage": {
+    "setupBtn": {
+      "type": "xpath",
+      "value": "//button[@title='Setup']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_lkzrqa": {
+      "type": "xpath",
+      "value": "//a[@title='Data Import Wizard']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_swtw2p": {
+      "type": "xpath",
+      "value": "//a[contains(text(),'Leads",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_pz47x7": {
+      "type": "xpath",
+      "value": "//input[@value='Start Import']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "attachFile": {
+      "type": "xpath",
+      "value": "//input[@id='attachFile']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_y1dcvw": {
+      "type": "xpath",
+      "value": "//input[@title='Next']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_5v231q": {
+      "type": "xpath",
+      "value": "//input[@title='Import']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_mge2xg": {
+      "type": "xpath",
+      "value": "//table[@aria-label='Leads']//tbody//tr",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_g4iev4": {
+      "type": "css",
+      "value": ".slds-global-header",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "closethiswindowBtn": {
+      "type": "css",
+      "value": "button[title='Close this window']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_dkkyz9": {
+      "type": "css",
+      "value": "div[title='Leads']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_kadn3d": {
+      "type": "css",
+      "value": "button.branding-userProfile-button",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "elem_lnnci9": {
+      "type": "css",
+      "value": "a[href*='logout']",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "username": {
+      "type": "id",
+      "value": "username",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "password": {
+      "type": "id",
+      "value": "password",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    },
+    "login": {
+      "type": "id",
+      "value": "Login",
+      "source": "TC135",
+      "firstSeen": "2026-01-12",
+      "lastUsed": "2026-01-12"
+    }
+  }
+}
