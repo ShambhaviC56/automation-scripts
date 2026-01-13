@@ -1,0 +1,151 @@
+{
+  "Opportunity ManagementPage": {
+    "elem_igfrlh": {
+      "type": "xpath",
+      "value": "//label[text()='Account Name']/following::input",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_e1gabm": {
+      "type": "xpath",
+      "value": "//div[contains(@class, 'slds-lookup__menu",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_d2n809": {
+      "type": "xpath",
+      "value": "//label[text()='Stage']/following::button",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_n3i7mh": {
+      "type": "xpath",
+      "value": "//span[@title='Prospecting']",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_3oh3ra": {
+      "type": "xpath",
+      "value": "//span[text()='Opportunity Name']/following::lightning-formatted-text",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_g4iev4": {
+      "type": "css",
+      "value": ".slds-global-header",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "maybeLaterBtn": {
+      "type": "css",
+      "value": "button[title='Maybe Later']",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_d8rrvw": {
+      "type": "css",
+      "value": ".slds-page-header",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_25shla": {
+      "type": "css",
+      "value": "a[title='New']",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "opportunityName": {
+      "type": "css",
+      "value": "lightning-input[name='Opportunity Name'] input",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "closeDate": {
+      "type": "css",
+      "value": "lightning-input[name='CloseDate'] input",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_vou4ua": {
+      "type": "css",
+      "value": "td[aria-selected='true']",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "saveEdit": {
+      "type": "css",
+      "value": "button[name='SaveEdit']",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_fkpv6k": {
+      "type": "css",
+      "value": ".slds-page-header__title",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "createdById": {
+      "type": "css",
+      "value": "lightning-output-field[field-name='CreatedById'] lightning-formatted-text",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_pf4vh9": {
+      "type": "css",
+      "value": ".slds-text-color_error",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_kadn3d": {
+      "type": "css",
+      "value": "button.branding-userProfile-button",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_lnnci9": {
+      "type": "css",
+      "value": "a[href*='logout']",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "username": {
+      "type": "id",
+      "value": "username",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "password": {
+      "type": "id",
+      "value": "password",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "login": {
+      "type": "id",
+      "value": "Login",
+      "source": "TC312",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    }
+  }
+}
