@@ -1,3 +1,81 @@
 {
-  "AccountPage": {}
+  "AccountPage": {
+    "elem_r8l8i6": {
+      "type": "css",
+      "value": "div.forceToastMessage",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_hse7eu": {
+      "type": "css",
+      "value": "#Login",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_kadn3d": {
+      "type": "css",
+      "value": "button.branding-userProfile-button",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_eukw6x": {
+      "type": "css",
+      "value": "#username",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_vnrrr6": {
+      "type": "css",
+      "value": "#password",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_g4iev4": {
+      "type": "css",
+      "value": ".slds-global-header",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_ghn9h8": {
+      "type": "css",
+      "value": "div.slds-modal__container",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_74f7y0": {
+      "type": "css",
+      "value": "lightning-input-field[field-name=",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_2oeav6": {
+      "type": "css",
+      "value": "lightning-base-combobox-item[data-value=",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_yqufor": {
+      "type": "css",
+      "value": "lightning-output-field[field-name=",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    },
+    "elem_8arkbs": {
+      "type": "css",
+      "value": "a[href*=",
+      "source": "TC001",
+      "firstSeen": "2026-01-13",
+      "lastUsed": "2026-01-13"
+    }
+  }
 }
