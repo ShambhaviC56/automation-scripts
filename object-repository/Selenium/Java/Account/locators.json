@@ -21,12 +21,13 @@
     },
     "accountNumber": {
       "type": "css",
-      "value": "lightning-input-field[field-name='AccountNumber'] input"
+      "value": "lightning-input-field[field-name='AccountNumber'] input",
+      "lastUsed": "2026-01-14"
     },
     "saveEdit": {
       "type": "css",
       "value": "button[name='SaveEdit']",
-      "lastUsed": "2026-01-12"
+      "lastUsed": "2026-01-14"
     },
     "elem_n6th5i": {
       "type": "css",
@@ -77,14 +78,14 @@
       "value": "a[title='New']",
       "source": "TC010",
       "firstSeen": "2026-01-12",
-      "lastUsed": "2026-01-12"
+      "lastUsed": "2026-01-14"
     },
     "name": {
       "type": "css",
       "value": "lightning-input-field[field-name='Name'] input",
       "source": "TC010",
       "firstSeen": "2026-01-12",
-      "lastUsed": "2026-01-12"
+      "lastUsed": "2026-01-14"
     },
     "ownerId": {
       "type": "css",
@@ -98,7 +99,42 @@
       "value": "div.forceToastMessage",
       "source": "TC010",
       "firstSeen": "2026-01-12",
-      "lastUsed": "2026-01-12"
+      "lastUsed": "2026-01-14"
+    },
+    "elem_f7j7id": {
+      "type": "xpath",
+      "value": "//span[contains(text(),'Account'",
+      "source": "TC001",
+      "firstSeen": "2026-01-14",
+      "lastUsed": "2026-01-14"
+    },
+    "elem_g5g64r": {
+      "type": "xpath",
+      "value": "//lightning-base-combobox-item[@data-value='%s']",
+      "source": "TC001",
+      "firstSeen": "2026-01-14",
+      "lastUsed": "2026-01-14"
+    },
+    "site": {
+      "type": "css",
+      "value": "lightning-input-field[field-name='Site'] input",
+      "source": "TC001",
+      "firstSeen": "2026-01-14",
+      "lastUsed": "2026-01-14"
+    },
+    "industry": {
+      "type": "css",
+      "value": "lightning-combobox[field-name='Industry'] button",
+      "source": "TC001",
+      "firstSeen": "2026-01-14",
+      "lastUsed": "2026-01-14"
+    },
+    "type": {
+      "type": "css",
+      "value": "lightning-combobox[field-name='Type'] button",
+      "source": "TC001",
+      "firstSeen": "2026-01-14",
+      "lastUsed": "2026-01-14"
     }
   }
 }
