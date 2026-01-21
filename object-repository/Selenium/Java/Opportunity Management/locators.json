@@ -5,35 +5,35 @@
       "value": "//label[text()='Account Name']/following::input",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_e1gabm": {
       "type": "xpath",
       "value": "//div[contains(@class, 'slds-lookup__menu",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_d2n809": {
       "type": "xpath",
       "value": "//label[text()='Stage']/following::button",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_n3i7mh": {
       "type": "xpath",
       "value": "//span[@title='Prospecting']",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_3oh3ra": {
       "type": "xpath",
       "value": "//span[text()='Opportunity Name']/following::lightning-formatted-text",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_g4iev4": {
       "type": "css",
@@ -61,21 +61,21 @@
       "value": "a[title='New']",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "opportunityName": {
       "type": "css",
       "value": "lightning-input[name='Opportunity Name'] input",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "closeDate": {
       "type": "css",
       "value": "lightning-input[name='CloseDate'] input",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_vou4ua": {
       "type": "css",
@@ -89,7 +89,7 @@
       "value": "button[name='SaveEdit']",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_fkpv6k": {
       "type": "css",
@@ -110,7 +110,7 @@
       "value": ".slds-text-color_error",
       "source": "TC312",
       "firstSeen": "2026-01-13",
-      "lastUsed": "2026-01-13"
+      "lastUsed": "2026-01-21"
     },
     "elem_kadn3d": {
       "type": "css",
