@@ -1,4 +1,3 @@
-const { test, expect } = require('@playwright/test');
 
 const baseUrl = 'https://fa-esev-dev18-saasfademo1.ds-fa.oraclepdemos.com';
 const username = '/* CREDENTIALS NOT CONFIGURED - Add in Configurations */';
