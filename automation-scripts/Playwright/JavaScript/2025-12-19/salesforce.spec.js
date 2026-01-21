@@ -1,5 +1,5 @@
 
-const baseUrl = 'https://fa-esev-dev18-saasfademo1.ds-fa.oraclepdemos.com';
+const baseUrl = ;
 const username = '/* CREDENTIALS NOT CONFIGURED - Add in Configurations */';
 const password = '/* CREDENTIALS NOT CONFIGURED - Add in Configurations */';
 
