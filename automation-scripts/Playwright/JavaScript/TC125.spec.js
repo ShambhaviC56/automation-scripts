@@ -31,8 +31,19 @@ test.describe('Salesforce Lead Creation', () => {
 
     await page.locator('button[name="New"]').waitFor({ state: 'visible' });
     await page.locator('button[name="New"]').click({ force: true });
+  
+   await page.fill(
+    '//label[text()="First Name"]/following::input[1]',
+    'Test'
+  );
+  
+  // 🔹 Enter Last Name (REQUIRED)
+  await page.fill(
+    '//label[text()="Last Name"]/following::input[1]',
+    'User'
+  );
 
- 
+    
 
     // 🔹 Save
     await page.click('button[name="SaveEdit"]');
