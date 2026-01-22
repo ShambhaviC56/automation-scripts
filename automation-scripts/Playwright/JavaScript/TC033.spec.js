@@ -5,7 +5,7 @@ test.use({
   storageState: path.join(__dirname, '../storageState.json'),
 });
 
-test('FAIL: Contact creation timeout', async ({ page }) => {
+test('TC33: FAIL - Contact creation timeout', async ({ page }) => {
 
   test.setTimeout(10000);
 
@@ -14,20 +14,19 @@ test('FAIL: Contact creation timeout', async ({ page }) => {
     'https://orgfarm-5694adb5bf-dev-ed.develop.lightning.force.com/lightning/o/Contact/list'
   );
 
-  await page.click('button[name="New"]');
+  // ✅ Correct New button for Contacts
+  await page.click('button[name="NewContact"]');
 
+  // Fill required field
   await page.fill(
     '//label[text()="Last Name"]/following::input[1]',
     'TimeoutTest'
   );
 
-  // ❌ INTENTIONAL TIMEOUT
-  // Salesforce save spinner / button never completes within 2s
+  // Click Save
   await page.click('button[name="SaveEdit"]');
 
-  await page.waitForSelector(
-    'span.toastMessage',
-    { timeout: 2000 }
-  );
+  // ❌ INTENTIONAL TIMEOUT (toast appears late in Salesforce)
+  await page.waitForSelector('span.toastMessage', { timeout: 2000 });
 
 });
