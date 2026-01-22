@@ -15,7 +15,7 @@ test.describe('Salesforce Lead - Click New', () => {
     // Wait for New button properly
     const newButton = page.locator('button[name="New"]');
 
-    await expect(newButton).toBeVisible({ timeout: 30000 });
+    await expect(newButton).toBeVisible({ timeout: 10000 });
     await expect(newButton).toBeEnabled();
 
     await newButton.click();
