@@ -5,21 +5,31 @@ test.use({
   storageState: path.join(__dirname, '../storageState.json'),
 });
 
-test('TC34: FAIL - Contact object / locator issue', async ({ page }) => {
+test('FAIL - Object issue while searching Session object', async ({ page }) => {
 
-  // Open Contacts list
-  await page.goto(
-    'https://orgfarm-5694adb5bf-dev-ed.develop.lightning.force.com/lightning/o/Contact/list'
+  // Navigate to Salesforce Lightning Home
+  await page.goto('https://orgfarm-5694adb5bf-dev-ed.develop.lightning.force.com/lightning/page/home');
+
+  // Open App Launcher (waffle icon)
+  await page.click('//div[@role="navigation"]//button[@title="App Launcher"]');
+
+  // Click "View All"
+  await page.click('//button[text()="View All"]');
+
+  // Select Sales App
+  await page.click('//p[text()="Sales"]');
+
+  // Wait for Sales app to load
+  await page.waitForLoadState('networkidle');
+
+  // Search for Session object in navigation search
+  await page.fill(
+    '//input[@placeholder="Search apps and items..."]',
+    'Session'
   );
-
-  // ✅ Correct New button
-  await page.click('button[name="NewContact"]');
 
   // ❌ OBJECT ISSUE HERE
-  // This field does NOT exist on Contact form
-  await page.fill(
-    '//input[@name="ThisObjectDoesNotExist"]',
-    'Test User'
-  );
+  // Session object does not exist in Salesforce metadata
+  // Hence it will not appear in search results
 
 });
