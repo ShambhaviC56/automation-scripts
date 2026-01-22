@@ -10,7 +10,7 @@ test.describe('Salesforce Lead - Click New', () => {
     await page.locator('a[title="Leads"]').click();
 
     // Wait for list view container (Lightning specific)
-    await page.waitForSelector('div[role="main"]', { timeout: 30000 });
+    await page.waitForSelector('div[role="main"]', { timeout: 10000 });
 
     // Wait for New button properly
     const newButton = page.locator('button[name="New"]');
