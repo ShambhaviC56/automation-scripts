@@ -29,20 +29,24 @@ test.describe('Salesforce Lead Creation', () => {
     await page.waitForSelector('a[title="Leads"]', { timeout: 60000 });
     await page.click('a[title="Leads"]');
 
-    await page.locator('button[name="New"]').waitFor({ state: 'visible' });
-    await page.locator('button[name="New"]').click({ force: true });
-  
-   await page.fill(
-    '//label[text()="First Name"]/following::input[1]',
-    'Test'
-  );
-  
-  // 🔹 Enter Last Name (REQUIRED)
-  await page.fill(
-    '//label[text()="Last Name"]/following::input[1]',
-    'User'
-  );
-
+      // Click New
+    await page.locator('button[name="New"]').first().waitFor({
+      state: 'attached',
+      timeout: 60000
+    });
+    await page.locator('button[name="New"]').first().click({ force: true });
+    
+    // Fill Last Name
+    await page.fill(
+      '//label[text()="Last Name"]/following::input[1]',
+      'PlaywrightUser'
+    );
+    
+    // Fill Company
+    await page.fill(
+      '//label[text()="Company"]/following::input[1]',
+      'OpenAI'
+    );
     
 
     // 🔹 Save
