@@ -14,7 +14,7 @@ test('FAIL: Contact creation timeout', async ({ page }) => {
     'https://orgfarm-5694adb5bf-dev-ed.develop.lightning.force.com/lightning/o/Contact/list'
   );
 
-  await page.click('a[title="New"]');
+  await page.click('button[name="New"]');
 
   await page.fill(
     '//label[text()="Last Name"]/following::input[1]',
