@@ -1,19 +1,23 @@
-const { test } = require('@playwright/test');
+const { test, expect } = require('@playwright/test');
 
-test.describe('Salesforce New Button Test', () => {
-  test('Click New button - Timeout issue', async ({ page }) => {
+test.describe('Salesforce Lead - Click New', () => {
+  test('Click New button reliably', async ({ page }) => {
+
+    // Assume storageState.json is already applied
     await page.goto('https://orgfarm-5694adb5bf-dev-ed.develop.lightning.force.com/lightning/page/home');
-    
-    await page.waitForLoadState('networkidle');
-    
-    await page.getByRole('link', { name: 'Leads' }).click();
-    await page.waitForLoadState('networkidle');
-    
-    // ❌ TIMEOUT ISSUE: Very short timeout (2000ms) will fail
-    // Salesforce Lightning New button takes 3-8 seconds to appear
-    
-    await page.waitForSelector('button[name="New"]', { timeout: 2000 });
-    
-    await page.click('button[name="New"]');
+
+    // Navigate to Leads tab
+    await page.locator('a[title="Leads"]').click();
+
+    // Wait for list view container (Lightning specific)
+    await page.waitForSelector('div[role="main"]', { timeout: 30000 });
+
+    // Wait for New button properly
+    const newButton = page.locator('button[name="New"]');
+
+    await expect(newButton).toBeVisible({ timeout: 30000 });
+    await expect(newButton).toBeEnabled();
+
+    await newButton.click();
   });
 });
