@@ -1,0 +1,60 @@
+{
+  "Opportunity ManagementPage": {
+    "elem_m6hucr": {
+      "type": "xpath",
+      "value": "//a[@title="
+    },
+    "elem_wbz3ez": {
+      "type": "xpath",
+      "value": "//div[contains(@class, "
+    },
+    "elem_v3rqt": {
+      "type": "css",
+      "value": ".slds-global-header__logo"
+    },
+    "elem_fkpv6k": {
+      "type": "css",
+      "value": ".slds-page-header__title"
+    },
+    "elem_jvxay9": {
+      "type": "css",
+      "value": "div[title="
+    },
+    "elem_7u0q17": {
+      "type": "css",
+      "value": "lightning-input[field-name="
+    },
+    "elem_74f7y0": {
+      "type": "css",
+      "value": "lightning-input-field[field-name="
+    },
+    "elem_w9musk": {
+      "type": "css",
+      "value": "lightning-combobox[field-name="
+    },
+    "elem_2oeav6": {
+      "type": "css",
+      "value": "lightning-base-combobox-item[data-value="
+    },
+    "elem_je63ih": {
+      "type": "css",
+      "value": "button[name="
+    },
+    "elem_tgy90v": {
+      "type": "css",
+      "value": "div.slds-page-header__detail-row div.ui-outputURL"
+    },
+    "username": {
+      "type": "id",
+      "value": "username"
+    },
+    "password": {
+      "type": "id",
+      "value": "password"
+    },
+    "login": {
+      "type": "id",
+      "value": "Login"
+    }
+  }
+}
