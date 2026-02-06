@@ -1,0 +1,8 @@
+{
+  "Opportunity ManagementPage": {
+    "successMessage": {
+      "type": "css",
+      "value": "div.successBlock.auraSuccessBlock"
+    }
+  }
+}
