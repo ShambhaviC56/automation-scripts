@@ -1,0 +1,32 @@
+export const OpportunityManagementLocators = {
+  setupButton: "[title='Setup (Gear Icon)']",
+  setupSearchInput: "[aria-label='Search Setup']",
+  workflowRulesLink: "[title='Workflow Rules']",
+  newWorkflowRuleButton: "button[name='new']",
+  ruleNameInput: "input[id='RuleName']",
+  selectedObjectCombobox: "div[id='p1']",
+  opportunityObjectOption: "[title='Opportunity']",
+  nextButton: "input[title='Next']",
+  ruleCriteriaAll: "input[value='1']",
+  ruleCriteriaAny: "input[value='2']",
+  ruleCriteriaFormula: "input[value='3']",
+  addRuleCriteriaButton: "input[title='Add Row']",
+  fieldCombobox: "select[id*='fval0']",
+  operatorCombobox: "select[id*='op0']",
+  valueInput: "input[id*='val0']",
+  saveAndNextButton: "input[title='Save & Next']",
+  addWorkflowActionDropdown: "input[title='Add Workflow Action']",
+  newFieldUpdateButton: "a[title='New Field Update']",
+  fieldUpdateNameInput: "input[id='FieldUpdateName']",
+  uniqueNameInput: "input[id='UniqueName']",
+  fieldToUpdateCombobox: "select[id='Field']",
+  specifyNewValueRadio: "input[id='optradio']",
+  saveButton: "input[title='Save']",
+  successMessage: "div.successBlock.auraSuccessBlock",
+  editButton: "a[title='Edit']",
+  activateButton: "input[title='Activate']",
+  deactivateButton: "input[title='Deactivate']",
+  workflowRuleId: "span[id='ID']"
+} as const;
+
+export type OpportunityManagementLocatorKey = keyof typeof OpportunityManagementLocators;
