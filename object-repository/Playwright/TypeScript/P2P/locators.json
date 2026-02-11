@@ -1,0 +1,8 @@
+{
+  "P2PPage": {
+    "opportunitySuccessMessage": {
+      "type": "css",
+      "value": "div.forceToastMessage"
+    }
+  }
+}
