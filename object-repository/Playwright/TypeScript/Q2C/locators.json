@@ -1,0 +1,16 @@
+{
+  "Q2CPage": {
+    "flowList": {
+      "type": "css",
+      "value": ".flow-list"
+    },
+    "flowItemName": {
+      "type": "css",
+      "value": ".flow-item-name"
+    },
+    "flowItemDescription": {
+      "type": "css",
+      "value": ".flow-item-description"
+    }
+  }
+}
