@@ -11,6 +11,10 @@
     "flowItemDescription": {
       "type": "css",
       "value": ".flow-item-description"
+    },
+    "successMessage": {
+      "type": "css",
+      "value": "div.slds-theme--success"
     }
   }
 }
