@@ -1,11 +1,12 @@
 export const Q2CLocators = {
+  flowList: "CSS=.flow-list",
+  flowItemName: "CSS=.flow-item-name",
+  flowItemDescription: "CSS=.flow-item-description",
   createNewFlowButton: "button:has-text('Create New End to End Flow')",
-  flowNameInput: "lightning-input[data-field='flowName'] input",
-  descriptionInput: "lightning-textarea[data-field='description'] textarea",
-  submitButton: "button[name='Submit']",
-  flowList: ".flow-list", // Example list container
-  flowItemName: ".flow-item-name", // Example item name
-  flowItemDescription: ".flow-item-description", // Example item description
+  flowNameInput: "input[name='FlowName']",
+  flowDescriptionInput: "textarea[name='FlowDescription']",
+  submitButton: "button:has-text('Submit')",
+  successMessage: "div.slds-theme--success"
 } as const;
 
 export type Q2CLocatorKey = keyof typeof Q2CLocators;

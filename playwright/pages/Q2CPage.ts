@@ -9,23 +9,28 @@ export class Q2CPage {
   }
 
   async navigateToQ2CModule(): Promise<void> {
-    // Replace with actual navigation logic to Q2C module
-    await this.page.goto('/lightning/n/Q2C'); // Placeholder
+    // Assuming a direct URL for the Q2C module.  Adjust as needed for navigation.
+    await this.page.goto('/lightning/n/Q2C');
   }
 
-  async createNewEndToEndFlow(flowName: string, description: string): Promise<void> {
+  async createNewEndToEndFlow(flowName: string, flowDescription: string): Promise<void> {
     await this.page.click(Q2CLocators.createNewFlowButton);
     await this.page.fill(Q2CLocators.flowNameInput, flowName);
-    await this.page.fill(Q2CLocators.descriptionInput, description);
+    await this.page.fill(Q2CLocators.flowDescriptionInput, flowDescription);
     await this.page.click(Q2CLocators.submitButton);
-    await this.page.waitForLoadState('networkidle');
   }
 
-  async getFlowNameText(): Promise<string | null> {
-    return await this.page.textContent(Q2CLocators.flowItemName);
+  async getFlowName(flowName: string): Promise<string | null> {
+    const flowLocator = this.page.locator(Q2CLocators.flowItemName, { hasText: flowName });
+    return await flowLocator.textContent();
   }
 
-  async getFlowDescriptionText(): Promise<string | null> {
-        return await this.page.textContent(Q2CLocators.flowItemDescription);
+  async getFlowDescription(flowDescription: string): Promise<string | null>{
+    const descriptionLocator = this.page.locator(Q2CLocators.flowItemDescription, {hasText: flowDescription});
+    return await descriptionLocator.textContent();
+  }
+
+  async getSuccessMessage(): Promise<string | null> {
+      return await this.page.textContent(Q2CLocators.successMessage);
   }
 }
