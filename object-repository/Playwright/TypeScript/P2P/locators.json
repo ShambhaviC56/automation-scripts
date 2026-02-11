@@ -2,7 +2,8 @@
   "P2PPage": {
     "opportunitySuccessMessage": {
       "type": "css",
-      "value": "div.forceToastMessage"
+      "value": "div.forceToastMessage",
+      "lastUsed": "2026-02-11"
     }
   }
 }
