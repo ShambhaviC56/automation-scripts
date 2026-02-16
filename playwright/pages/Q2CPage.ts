@@ -8,29 +8,32 @@ export class Q2CPage {
     this.page = page;
   }
 
-  async navigateToQ2CModule(): Promise<void> {
-    // Assuming a direct URL for the Q2C module.  Adjust as needed for navigation.
-    await this.page.goto('/lightning/n/Q2C');
+  async createNewQuote(): Promise<void> {
+    await this.page.click(Q2CLocators.newQuoteButton);
   }
 
-  async createNewEndToEndFlow(flowName: string, flowDescription: string): Promise<void> {
-    await this.page.click(Q2CLocators.createNewFlowButton);
-    await this.page.fill(Q2CLocators.flowNameInput, flowName);
-    await this.page.fill(Q2CLocators.flowDescriptionInput, flowDescription);
-    await this.page.click(Q2CLocators.submitButton);
+  async addProductsToQuote(): Promise<void> {
+    await this.page.click(Q2CLocators.addProductsButton);
+    // Implement product selection logic here
+    // This will depend on how the product selection UI is implemented.
   }
 
-  async getFlowName(flowName: string): Promise<string | null> {
-    const flowLocator = this.page.locator(Q2CLocators.flowItemName, { hasText: flowName });
-    return await flowLocator.textContent();
+  async saveQuote(): Promise<void> {
+    await this.page.click(Q2CLocators.saveQuoteButton);
+    await this.page.waitForSelector(Q2CLocators.successMessage, { state: 'visible', timeout: 30000 });
   }
 
-  async getFlowDescription(flowDescription: string): Promise<string | null>{
-    const descriptionLocator = this.page.locator(Q2CLocators.flowItemDescription, {hasText: flowDescription});
-    return await descriptionLocator.textContent();
+  async generateQuoteDocument(): Promise<void> {
+    await this.page.click(Q2CLocators.generateDocumentButton);
+    // Implement document verification logic here
   }
 
   async getSuccessMessage(): Promise<string | null> {
-      return await this.page.textContent(Q2CLocators.successMessage);
+    return await this.page.textContent(Q2CLocators.successMessage);
   }
+
+
+  async navigateToQuotesSection(): Promise<void> {
+        await this.page.goto('/lightning/o/Quote/list?filterName=Recent');
+    }
 }
